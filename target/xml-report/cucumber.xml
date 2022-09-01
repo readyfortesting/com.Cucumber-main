@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.996">
+    <testcase classname="US1001 amazon arama" name="TC01 amazon nutella arama" time="4.277">
+        <failure message="null value in entry: url=null" type="java.lang.NullPointerException">
+            <![CDATA[When kullanici amazon sayfasina gider.......................................failed
+And nutella icin arama yapar................................................skipped
+Then sonucun nutella icerdigini test eder...................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider(amazonStepDefinitions.java:19)
+	at ✽.kullanici amazon sayfasina gider(file:///C:/Users/ADMIN/Downloads/com.Cucumber-main/com.Cucumber-main/src/test/resources/features/amazonSearch.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
